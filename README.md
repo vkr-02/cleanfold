@@ -9,17 +9,12 @@ Modular React component structure
 Pre-configured build setup
 
 📁 Project Structure
-cleanFold/
-│
-├── admin/                # React admin panel
-│   ├── public/           # Static files
-│   ├── src/              # Source code
-│   ├── package.json      # Dependencies and scripts
-│   └── .env              # Environment variables
-│
-├── Clean_Fold_Documentation.md
-├── Clean_Fold_Documentation.pdf
-
+cleanFold/ 
+│ ├── admin/ # React admin panel 
+│ 	├── public/ # Static files 
+│ 	├── src/ # Source code 
+│ 	├── package.json # Dependencies and scripts 
+│ 	└── .env # Environment variables
 ⚙️ Installation
 Clone the repository:
 git clone https://github.com/your-username/your-repo-name.git
