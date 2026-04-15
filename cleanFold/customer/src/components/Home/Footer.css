@@ -1,0 +1,62 @@
+#Footer {
+    background-color: #1a1e29; /* deep dark blue matching Redline design */
+    color: #f8fafc;
+    border-top: 4px solid #ef4444; /* top red line */
+}
+
+#Footer .footer-description {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #94a3b8 !important;
+}
+
+#Footer .footer-column-heading {
+    position: relative;
+    padding-bottom: 12px;
+    font-size: 1.25rem;
+}
+
+/* Redline specific: Small red underline under the column headings */
+#Footer .footer-column-heading::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 35px;
+    height: 2px;
+    background-color: #ef4444;
+}
+
+#Footer .footer-link {
+    color: #94a3b8;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.05rem;
+    padding-bottom: 8px;
+}
+
+#Footer .footer-link:hover {
+    color: #ef4444;
+    transform: translateX(4px);
+}
+
+#Footer .contact-info-item {
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+#Footer .contact-info-item .text-secondary {
+    color: #94a3b8 !important;
+}
+
+#Footer .hover-red:hover {
+    color: #ef4444 !important;
+    text-decoration: none;
+}
+
+#Footer .transition-all {
+    transition: all 0.3s ease;
+}
+

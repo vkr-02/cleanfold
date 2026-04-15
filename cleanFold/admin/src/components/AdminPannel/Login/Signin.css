@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+.admin-login-wrapper {
+	position: relative;
+	min-height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #f8fafc; /* CleanFold light background */
+	background-image: radial-gradient(circle at top left, #ffffff 0%, transparent 50%),
+					  radial-gradient(circle at bottom right, #f1f5f9 0%, transparent 50%);
+	overflow: hidden;
+	font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Laundry Theme Soft Bubbles */
+.water-bubble {
+	position: absolute;
+	filter: blur(70px);
+	border-radius: 50%;
+	z-index: 1;
+	animation: floatBubble 12s infinite ease-in-out alternate;
+	pointer-events: none;
+}
+
+.bubble-1 {
+	top: -5%;
+	left: -5%;
+	width: 500px;
+	height: 500px;
+	background: rgba(239, 68, 68, 0.08); /* Soft Red */
+}
+
+.bubble-2 {
+	bottom: -10%;
+	right: -5%;
+	width: 600px;
+	height: 600px;
+	background: rgba(15, 23, 42, 0.06); /* Soft Dark Blue */
+	animation-delay: -4s;
+}
+
+.bubble-3 {
+	top: 40%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	background: rgba(100, 116, 139, 0.08); /* Soft Slate Grey */
+	animation-delay: -8s;
+}
+
+@keyframes floatBubble {
+	0% { transform: translateY(0) scale(1) translateX(0); }
+	100% { transform: translateY(50px) scale(1.05) translateX(30px); }
+}
+
+.admin-login-container {
+	position: relative;
+	z-index: 10;
+	width: 100vw;
+	min-height: 100vh;
+	max-width: none;
+	padding: 0;
+	display: flex;
+}
+
+/* Light Theme Split Card Full Screen */
+.login-split-card {
+	flex: 1;
+	display: flex;
+	background: transparent;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	color: #2d3748;
+	transform: none;
+	opacity: 0;
+	animation: fadeIn 0.8s ease forwards;
+	overflow: hidden;
+    flex-wrap: wrap;
+}
+
+@keyframes fadeIn {
+	to { opacity: 1; }
+}
+
+/* Image side container */
+.login-image-side {
+	flex: 1;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+	position: relative;
+    min-height: 100vh;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.illustration-wrapper {
+    flex: 1;
+    width: 100%;
+    max-width: 80%; /* Don't stretch image too much */
+    margin: 60px auto 20px auto;
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+
+.image-overlay-text {
+	text-align: center;
+	padding: 30px 10% 60px;
+    background-color: transparent;
+}
+
+.image-overlay-text h2 {
+	font-size: 30px;
+	font-weight: 800;
+	margin-bottom: 15px;
+	color: #0f172a;
+    line-height: 1.3;
+    letter-spacing: -0.5px;
+}
+
+.brand-text {
+	color: #ef4444; /* Brand Red */
+}
+
+.image-overlay-text p {
+	font-size: 17px;
+	color: #475569;
+    font-weight: 400;
+}
+
+/* Form Box - Flush Modern Layout */
+.login-form-side {
+	flex: 1;
+    flex-basis: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 5% 10%;
+	background: rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.login-form-wrapper {
+    width: 100%;
+    max-width: 440px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+}
+
+.modern-header {
+	text-align: left;
+	margin-bottom: 40px;
+}
+
+.login-heading {
+    font-size: 42px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 12px;
+    letter-spacing: -1px;
+    line-height: 1.1;
+}
+
+/* Floating Input Group */
+.floating-input-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.floating-input {
+    width: 100%;
+    padding: 24px 20px 10px 20px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    font-size: 16px;
+    color: #0f172a;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.floating-label {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #94a3b8;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.floating-input:focus,
+.floating-input:not(:placeholder-shown) {
+    background: #ffffff;
+    border-color: #0f172a;
+    box-shadow: 0 0 0 4px rgba(15, 23, 42, 0.05);
+}
+
+.floating-input:focus ~ .floating-label,
+.floating-input:not(:placeholder-shown) ~ .floating-label {
+    top: 14px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.input-icon-right,
+.password-toggle-right {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #94a3b8;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.password-toggle-right {
+    cursor: pointer;
+}
+
+.password-toggle-right:hover,
+.floating-input:focus ~ .input-icon-right,
+.floating-input:focus ~ .password-toggle-right {
+    color: #0f172a;
+}
+
+.input-error {
+	color: #e11d48;
+	font-size: 12px;
+	position: absolute;
+	bottom: -20px;
+	left: 5px;
+}
+
+/* Super Submit Button */
+.super-submit-btn {
+    width: 100%;
+    background: #ef4444; /* CleanFold Red */
+    color: #ffffff;
+    border: none;
+    border-radius: 16px;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin-top: 20px;
+    box-shadow: 0 10px 20px -5px rgba(239, 68, 68, 0.3);
+}
+
+.super-submit-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 30px -10px rgba(239, 68, 68, 0.4);
+    background: #dc2626; /* Darker Red */
+}
+
+.btn-icon-wrapper {
+    background: #ffffff;
+    color: #ef4444; /* Red icon to match */
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.4s ease;
+}
+
+.super-submit-btn:hover .btn-icon-wrapper {
+    transform: translateX(5px);
+}
+
+.btn-icon {
+    font-size: 14px;
+}
+
+.error-alert {
+	background: rgba(225, 29, 72, 0.08);
+	border: 1px solid rgba(225, 29, 72, 0.2);
+	color: #e11d48;
+	padding: 12px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	font-size: 13px;
+	text-align: center;
+}
+
+.login-footer {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.back-link {
+	color: #333333;
+	font-size: 14px;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+.back-link:hover {
+	color: #000000;
+	text-decoration: underline;
+}

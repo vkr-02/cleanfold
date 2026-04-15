@@ -1,0 +1,47 @@
+.sidebar {
+	background-image: linear-gradient(40deg, #19d3ae, #0fcfec);
+	position: fixed;
+	height: 100vh;
+	overflow-y: auto;
+	-ms-overflow-style: none;
+	/* IE and Edge */
+	scrollbar-width: none;
+	/* Firefox */
+}
+
+.sidebar::-webkit-scrollbar {
+	display: none;
+	/* Chrome, Safari and Opera */
+}
+
+.sidebar li {
+	margin-bottom: 1.2rem;
+}
+
+.sidebar .nav-item.title-item {
+	margin-bottom: 3rem;
+	text-align: center;
+}
+
+.sidebar .sidebar-title {
+	font-size: 24px;
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+
+.sidebar li:hover span {
+	display: inline-block;
+	transform: translate(5px);
+	transition: all 0.3s ease;
+}
+
+.sidebar svg {
+	margin-right: 12px;
+	width: 20px !important;
+	text-align: center;
+}
+
+.sidebar li span {
+	font-size: 16px;
+	text-decoration: none;
+}

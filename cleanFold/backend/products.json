@@ -1,0 +1,292 @@
+[
+    {
+        "id": "1101",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Topwear (Shirt / T-shirt )",
+        "category": "Men's Wear",
+        "service": "Wash And Iron",
+        "price": 40,
+        "quantity": 1
+    },
+    {
+        "id": "1102",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Bottom Wear (Trouser / Jeans / Pajama)",
+        "category": "Men's Wear",
+        "service": "Wash And Iron",
+        "price": 45,
+        "quantity": 1
+    },
+    {
+        "id": "1103",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Winter Wear (Sweater / Hoodies)",
+        "category": "Men's Wear",
+        "service": "Wash And Iron",
+        "price": 85,
+        "quantity": 1
+    },
+    {
+        "id": "1104",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Home Wear (Sleeping suit / Nightdress)",
+        "category": "Men's Wear",
+        "service": "Wash And Iron",
+        "price": 55,
+        "quantity": 1
+    },
+    {
+        "id": "1105",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Premium (Blazer / Coat / Jacket)",
+        "category": "Men's Wear",
+        "service": "Wash And Iron",
+        "price": 140,
+        "quantity": 1
+    },
+    {
+        "id": "1201",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Saree (Cotton / Synthetic)",
+        "category": "Women's Wear",
+        "service": "Wash And Iron",
+        "price": 60,
+        "quantity": 1
+    },
+    {
+        "id": "1202",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Saree (Silk / Georgette / Banarasi)",
+        "category": "Women's Wear",
+        "service": "Wash And Iron",
+        "price": 90,
+        "quantity": 1
+    },
+    {
+        "id": "1203",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Salwar Kameez / Kurti",
+        "category": "Women's Wear",
+        "service": "Wash And Iron",
+        "price": 50,
+        "quantity": 1
+    },
+    {
+        "id": "1204",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Lehenga Choli",
+        "category": "Women's Wear",
+        "service": "Wash And Iron",
+        "price": 120,
+        "quantity": 1
+    },
+    {
+        "id": "1205",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Anarkali Suit",
+        "category": "Women's Wear",
+        "service": "Wash And Iron",
+        "price": 80,
+        "quantity": 1
+    },
+    {
+        "id": "2101",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Top Wear (Shirt / T-shirt )",
+        "category": "Men's Wear",
+        "service": "Wash And Fold",
+        "price": 40,
+        "quantity": 1
+    },
+    {
+        "id": "2102",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Bottom Wear (Trouser / jeans / Pajama)",
+        "category": "Men's Wear",
+        "service": "Wash And Fold",
+        "price": 40,
+        "quantity": 1
+    },
+    {
+        "id": "2103",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Blazer / Coat / Jacket",
+        "category": "Men's Wear",
+        "service": "Wash And Fold",
+        "price": 150,
+        "quantity": 1
+    },
+    {
+        "id": "2201",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Saree (Daily Wear)",
+        "category": "Women's Wear",
+        "service": "Wash And Fold",
+        "price": 50,
+        "quantity": 1
+    },
+    {
+        "id": "2202",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Kurti / Leggings",
+        "category": "Women's Wear",
+        "service": "Wash And Fold",
+        "price": 35,
+        "quantity": 1
+    },
+    {
+        "id": "3101",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Top Wear (Shirt / T-shirt )",
+        "category": "Men's Wear",
+        "service": "Iron And Fold",
+        "price": 10,
+        "quantity": 1
+    },
+    {
+        "id": "3102",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Bottom Wear (Trouser / Jeans / Pajama)",
+        "category": "Men's Wear",
+        "service": "Iron And Fold",
+        "price": 10,
+        "quantity": 1
+    },
+    {
+        "id": "3201",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Saree (Normal)",
+        "category": "Women's Wear",
+        "service": "Iron And Fold",
+        "price": 15,
+        "quantity": 1
+    },
+    {
+        "id": "3202",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Salwar Kameez",
+        "category": "Women's Wear",
+        "service": "Iron And Fold",
+        "price": 12,
+        "quantity": 1
+    },
+    {
+        "id": "4101",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Top Wear (Shirt / T-shirt / Trouser / Pajama)",
+        "category": "Men's Wear",
+        "service": "Dry Cleaning",
+        "price": 40,
+        "quantity": 1
+    },
+    {
+        "id": "4102",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Suit (2 Psc)",
+        "category": "Men's Wear",
+        "service": "Dry Cleaning",
+        "price": 300,
+        "quantity": 1
+    },
+    {
+        "id": "4103",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Suit (3 Psc)",
+        "category": "Men's Wear",
+        "service": "Dry Cleaning",
+        "price": 350,
+        "quantity": 1
+    },
+    {
+        "id": "4201",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Premium Saree (Silk / Katan)",
+        "category": "Women's Wear",
+        "service": "Dry Cleaning",
+        "price": 250,
+        "quantity": 1
+    },
+    {
+        "id": "4202",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Lehenga Choli (Heavy)",
+        "category": "Women's Wear",
+        "service": "Dry Cleaning",
+        "price": 500,
+        "quantity": 1
+    },
+    {
+        "id": "4203",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Anarkali Suit (Formal)",
+        "category": "Women's Wear",
+        "service": "Dry Cleaning",
+        "price": 300,
+        "quantity": 1
+    },
+    {
+        "id": "5101",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Emergency Wash (Any Item)",
+        "category": "Men's Wear",
+        "service": "Emergency Service",
+        "price": 100,
+        "quantity": 1
+    },
+    {
+        "id": "5201",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Emergency Wash (Any Women's Item)",
+        "category": "Women's Wear",
+        "service": "Emergency Service",
+        "price": 120,
+        "quantity": 1
+    },
+    {
+        "id": "6101",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Monthly Plan (Men's Basics)",
+        "category": "Men's Wear",
+        "service": "Subscription Based",
+        "price": 1500,
+        "quantity": 1
+    },
+    {
+        "id": "6201",
+        "ac": "d-block",
+        "dc": "d-none",
+        "name": "Monthly Plan (Women's Indian Wear)",
+        "category": "Women's Wear",
+        "service": "Subscription Based",
+        "price": 2000,
+        "quantity": 1
+    }
+]
